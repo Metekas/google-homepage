@@ -1,0 +1,137 @@
+#logo{
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png) no-repeat;
+	background-size: 272px 92px;
+	height:92px;
+	width: 272px;
+	margin: 200px auto 0px;
+}
+#logo p{
+	position:relative;
+	margin-left:150px;
+	font: 16px Arial, sans-serif;
+	color: #4285f4;
+}
+form{
+	margin-top: 30px;
+
+}
+form input[type="text"]{
+	width: 516px;
+	height: 38px;
+	padding: 2px 5px;
+	font: 15px Arial;
+	border:1px solid #D0D0D0;
+}
+form input[type="text"]:hover{
+	border-color: #A0A0A0;
+}
+#paieska, #sekasi{
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+#sekasi:hover{
+	border-color: #A0A0A0;
+}
+#paieska:hover{
+	border-color: #A0A0A0;
+}
+#paieska{
+	width: 143px;
+    height:36px;
+}
+#sekasi{
+	width: 107px;
+	height:36px;
+}
+#navbar{
+	display:block;
+	width:100%;
+	height:24px;
+}
+#navbar ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	float:right;
+}
+
+.navbars{
+	display:inline-block;
+	width: 50px;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+}
+.navbars a:link{
+	text-decoration: none;
+	color:black;
+}
+.navbars a:hover{
+	color:black;
+	text-decoration: underline;
+}
+#Aistis{
+	opacity: .55;
+}
+#apps{
+	height: 20px;
+	width:20px;
+}
+#notifications {
+	height: 30px;
+	width: 30px;
+	vertical-align: center;
+}
+#notifications img {
+	height: 20px;
+	width: 20px;
+	background-color: white;
+}
+#account img{
+	border-radius:20px;
+}
+#footer{
+	display:block;
+	height:40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	width:99.5%;
+	position:absolute;
+	bottom:0;
+	
+}
+.leftfoot, .rightfoot{
+	font-family: arial,sans-serif;
+	display:inline-block;
+	font-size: small;
+	
+}
+.leftfoot{
+	float:left;
+	width:140px;
+	margin-left: -27px;
+}
+.rightfoot{
+	float: right;
+	width:100px;
+
+}
+
+#footer ul a:link{
+	color: #707070 ;
+	text-decoration: none;
+
+}
+#footer ul a:hover{
+	text-decoration: underline;
+	color: #707070;
+}
